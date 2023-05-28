@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-Off_white">
+
+  <!--navbar-->
+  <div class="m-0 md:mx-18 p-0 lg:p-10 ">
+     
+     <nav class="relative container p-6">
+      <!--flex container-->
+      <div class="flex items-center justify-between ">
+        <!--logo-->
+        <div class="pt-2">
+          <img src="/images/logo.svg" alt="">
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a class="hover:text-Soft_Orange text-bold" href="#">Home</a>
+          <a class="hover:text-Soft_Orange text-bold" href="#">New</a>
+          <a class="hover:text-Soft_Orange text-bold" href="#">Popular</a>
+          <a class="hover:text-Soft_Orange text-bold" href="#">Trending</a>
+          <a class="hover:text-Soft_Orange text-bold" href="#">Categories</a>
+        </div>
+
+        <!--small screen view-->
+        <button class="block md:hidden focus:outline-none">
+          <img id="show" src="/images/icon-menu.svg">
+          <img id="close" class="hidden" src="/images/icon-menu-close.svg">
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div id="menu" class="absolute flex-col items-center self-end hidden py-8 mt-5 space-y-6 bg-Off_white
+        sm:w-auto sm:self-center left-6 right-6 drop-shadow-md text-bold">
+        <a class="hover:text-Soft_Orange" href="#">Home</a>
+        <a class="hover:text-Soft_Orange" href="#">New</a>
+        <a class="hover:text-Soft_Orange" href="#">Popular</a>
+        <a class="hover:text-Soft_Orange" href="#">Trending</a>
+        <a class="hover:text-Soft_Orange" href="#">Categories</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--contents-->
+    <div class="block gap-6 mt-5 sm:flex ">
+
+       <div class="w-2/3">
+        <img src="/images/image-web-3-desktop.jpg" >
+        <div class="flex py-5 justify-between">
+          <h1 class="w-1/2 font-Inter font-bold text-7xl">The Bright Future of Web 3.0?</h1>  
+          <div class="w-1/2 pl-16">
+            <p class="text-Dark_grayish_blue text-base ">we dive into the next evalution of the web that claims to put the power of the platforms back into the hands of the 
+              people. But is it really fulfilling its promise?
+            </p>
+            <Button class="bg-Soft_Red p-3 text-white w-1/2 font-bold mt-16 h-12 hover:bg-Very_dark_blue tracking-[0.25rem]">READ MORE</Button>
+          </div>
+        </div>
+       </div>
+      <div class="w-1/3 bg-Very_dark_blue px-5 py-8 relative ">
+        <div class="text-Soft_Orange font-Inter font-bold text-4xl">
+          <h1>New</h1>
+        </div>
+        <div class="mt-8">
+          <h1 class="text-white font-Inter font-bold text-xl hover:text-Soft_Orange hover:cursor-pointer mb-3">Hydrogen VS Electronic Cars</h1>
+          <p class="text-Grayish_blue text-paragraph  leading-7 mb-8">Will Hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr class="border-0 bg-Grayish_blue h-px">
+        </div>
+        <div class="mt-8">
+          <h1 class="text-white font-Inter font-bold text-xl hover:text-Soft_Orange hover:cursor-pointer mb-3">The Downsides of AI Artisty</h1>
+          <p class="text-Grayish_blue text-paragraph  leading-7 mb-8">What are the possible Adverse effects of on-demande AI image generation</p>
+          <hr class="border-0 bg-Grayish_blue h-px">
+        </div>
+        <div class="mt-8">
+          <h1 class="text-white font-Inter font-bold text-xl hover:text-Soft_Orange hover:cursor-pointer mb-3"> Is VC Funding Drying Up?</h1>
+          <p class="text-Grayish_blue text-paragraph  leading-7 mb-8">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sm:flex justify-between mt-32 block m-0">
+       <div class="w-1/3 mb-5 sm:mb-0">
+        <div class="flex gap-6">
+          <img src="/images/image-retro-pcs.jpg">
+          <div >
+            <h1 class="text-Grayish_blue text-4xl font-bold mb-4">01</h1>
+            <h2 class="font-bold font-Inter text-xl hover:text-Soft_Red hover:cursor-pointer mb-2">Reviving Retro PCs</h2>
+            <p class="text-Dark_grayish_blue leading-8">What happens when old PCs are given modern upgrades?</p>
+          </div>
+          
+        </div>
+       </div>
+
+       <div class="w-1/3 mb-5 sm:mb-0">
+        <div class="flex gap-6">
+          <img src="/images/image-top-laptops.jpg">
+          <div >
+            <h1 class="text-Grayish_blue text-4xl font-bold mb-4">02</h1>
+            <h2 class="font-bold font-Inter text-xl hover:text-Soft_Red hover:cursor-pointer mb-2">Top 10 Laptops of 2022</h2>
+            <p class="text-Dark_grayish_blue leading-8">Our best picks for various needs and budgets.</p>
+          </div>
+          
+        </div>
+       </div>
+
+       <div class="w-1/3 mb-5 sm:mb-0">
+        <div class="flex gap-4">
+          <img src="/images/image-gaming-growth.jpg">
+          <div >
+            <h1 class="text-Grayish_blue text-4xl font-bold mb-4">03</h1>
+            <h2 class="font-bold font-Inter text-xl hover:text-Soft_Red hover:cursor-pointer mb-2">The Growth of Gaming</h2>
+            <p class="text-Dark_grayish_blue leading-8">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+          
+        </div>
+       </div>
+    </div>
+  </div>
+ <script src="/script/main.js"></script>
+</body>
+</html>
